@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	outline:none;
+	font-size:100%;
+/*    background:transparent;*/
+
+}
+
+body {
+	line-height:1;
+	font-family:"Helvetica Neue", "Helvetica", "Verdana", sans-serif;
+	font-size:12px;
+	line-height:140%;
+	color:#3e3e3e;
+}
+.fullbody{
+	margin:0px;
+	padding:0px;/*
+	min-height:196px;
+	background-image:url(../img/headerimg.png);*/
+}
+.container{
+	max-width:1345px;
+	
+}
+.header{
+	min-height:196px;
+	background-image:url(../img/headerimg.png);
+}
+.headermid{
+	max-width:936px;
+	height:196px;
+	margin:auto;
+}
+.hrImg{
+	max-width:100%;
+}
+.ppcbangladeshmonogram{
+	margin-top: 70px;
+}
+@media (max-width:500px) { 
+.ppcbangladeshmonogram{
+	margin-top: 0px;
+}
+
+.headerRight {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.write > h2{
+	color: #FF0000;
+    display: inline;
+	font-size:12;
+}
+}
+.headerRight{
+	margin-left: 18px;
+    margin-top: 56px;
+	
+}
+.headerRight > li{
+	
+}
+.navigationbar{
+	background-color:#017EBE;
+}
+.manu{
+	max-width:936px;
+	height:56px;
+	border:1px solid;
+	margin:auto;
+	padding-top: 12px;
+}
+.navigationmenue{
+    /*max-width: 936px;*/
+}
+.manue{
+	color: #FFFFFF;
+    font-size: 13px;
+    padding-top: 18px;
+}
+.navigationmenue ul li{
+	display: inline;
+    margin-right: 35px;
+}
+.navbar-inverse .navbar-nav.navigationmenue > li > a{
+	color: #FFFFFF !important;
+	text-decoration:none !important;
+}
+.barmenue {
+    margin-left: 25px;
+}
+.content{
+	height:1436px;
+	border: 2px solid #D6D5D3;
+}
+.sideform{
+	background-color: #F8F4F3;
+    border: 2px solid #D6D5D3;
+    border-radius: 10px 10px 10px 10px;
+    height: 304px;
+    max-width: 232px;
+}
+.formmiddle{
+    height: 244px;
+    margin: 20px auto auto;
+    max-width: 196px;
+}
+.formmiddle > p{
+	font-size: 23px;
+    line-height: 25px;
+    text-align: center;
+	margin-bottom: 20px;
+	color:#FF0000;
+}
+.input{
+	background-color: #F8F4F3;
+    border: 1px solid;
+    font-size: 12px;
+    height: 22px;
+    margin-top: 3px;
+    padding-left: 5px;
+    width: 195px;
+}
+.submitButton{
+	background-image: url("../img/submitButton.png");
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    float: right;
+    height: 25px;
+    width: 90px;
+	margin-right: 5px;
+}
+.ppcbigimg{
+	background-image:url(../img/ppcbigimg.png);
+    background-repeat: no-repeat;
+    border: 1px solid #B2B2B2;
+    height: 300px;
+    max-width: 691px;
+}
+.sidefreeadd{
+	height: 164px;
+    margin-top: 30px;
+    width: 247px;
+}
+.bar{
+	border: 1px solid #C8C8C8;
+    margin: 10px;
+    max-width: 909px;
+}
+
+.paddingno{
+	padding-left:7px !important;
+	padding-right:0px;
+}
+.marginleft30px{
+	border: 1px solid #B2B2B2;
+    margin-left: 30px;
+    margin-top: 30px;
+    max-width: 667px;
+}
+.marginleft30px > p{
+	color: #57A8D3;
+	font-size:22px;
+	margin: 15px 36px;
+}
+.gurantymonogram{
+	margin-top: 85px;
+}
+.ppcExpress{
+	background-image: url("../img/ppcExpress.png");
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    float: right;
+    height: 119px;
+    margin-right: 10px;
+}
+.bordernone{
+	border:none !important;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+.bordernonePadding{
+	border:none !important;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	margin-left:0px !important;
+	margin-right:0px !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+	background-color:transparent !important;
+}
+.bordernonePaddingWrite{
+	border:none !important;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	margin-left:0px !important;
+	margin-right:0px !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+	background-color:transparent !important;
+}
+.write{
+	margin-top: 10px;
+    vertical-align: top;
+	padding-left:0px !important;
+}
+.write > h2{
+	color: #FF0000;
+    display: inline
+}
+.buttonFind{
+	margin-top: 92px;
+}
+.googleadwords{
+	margin: 12px 0 0 64px;
+}
+.microsoftAdvertising{
+	margin: 0 0 0 28px;
+}
+.manyImage{
+	height:100px;
+	background-color:#F8F8F8 !important;
+}
+.emptyPadding{
+	border: 1px solid #B2B2B2;
+    margin-top: 30px;
+    padding-left: 0 !important;
+    padding-right: 0;
+}
+.manyImageAll{
+	padding: 13px 27px;
+}
+.footerEmptyPadding{
+	padding:0px !important;
+}
+
+/*small{color: #333333 !important;}
+.container{background-color:#ffffff;
+		   }
+		   
+#content-wrapper{padding:25px;} 
+
+.identifier{background-color:#fefee6;}
+
+
+input{height:28px !important;}
+.form-group.col-md-5{margin-bottom:0;}
+.radio-inline span, .radio span{ line-height:26px; }
+input[type="radio"]{height:25px !important; margin-top: 0;}
+.checkbox-inline span, .checkbox span{ line-height:26px; }
+input[type="checkbox"]{height:25px !important; margin-top: 0;}
+.top-table{height:300px;}
+.tr-title{height: 50px;}
+.no-padding{padding:0 !important;}
+.no-padding-right{padding-right:0 !important;}
+.no-margin{margin:0 !important;}
+.border-no, .table-bordered.border-no, .table-bordered > tbody > tr > td.border-no, .table-bordered > tr > td.border-no{border:none !important;}
+.overauto{overflow:auto !important;}
+.aasr-tb td{ width: 20% !important;}
+.BurstABR td{height: 58px !important;}
+tr.text-center input[type="checkbox"], tr.text-center .checkbox-inline input[type="checkbox"]{
+	float:none;
+}
+.padding-sev{padding-top:7px;}
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]{
+	outline:none;
+}*/
+
+/* css for timepicker */
+/*.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 40%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 40% 10px 10px; }*/
